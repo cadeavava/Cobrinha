@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap');
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body
+{
+    display: flex;
+    background-color: #191919;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column; /*pros elementos flex ficarem um em cima do outro*/
+}
+
+canvas
+{
+    background-color: #111111;
+}
+
+.score
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 2vh;
+    align-items: center;
+}
+
+.valor
+{
+    font-weight: 700;
+    font-size: 6vh;
+    display: block;
+    margin-top: -2vh;
+}
+
+.menu
+{
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+}
+
+.gameover
+{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 8vh;
+}
+
+.final
+{
+    font-weight: 500;
+    font-size: 4vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.final span
+{
+    align-items: center;
+    justify-content: center;
+}
+
+.replay
+{
+    border: none;
+    border-radius: 5vh; 
+    padding: 1vh 1.5vw 1vh 1.5vw;
+    font-size: 2vh;
+    font-weight: 600;
+    color: darkblue;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
